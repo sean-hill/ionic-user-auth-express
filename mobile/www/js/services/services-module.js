@@ -1,0 +1,1 @@
+angular.module("base-auth.services", ['http-auth-interceptor']);

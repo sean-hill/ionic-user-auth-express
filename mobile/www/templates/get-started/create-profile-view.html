@@ -1,0 +1,27 @@
+<ion-view title="Create Profile">
+	<ion-content>
+		<form ng-submit="createProfile()">
+			<div class="list">
+				<label class="item item-input item-stacked-label">
+					<span class="input-label">First Name</span>
+					<input type="text" placeholder="Johnny" ng-model="profileForm.name.first">
+				</label>
+				<label class="item item-input item-stacked-label">
+					<span class="input-label">Last Name</span>
+					<input type="text" placeholder="Appleseed" ng-model="profileForm.name.last">
+				</label>
+				<label class="item item-input item-stacked-label">
+					<span class="input-label">Email</span>
+					<input type="email" placeholder="example@unbill.us" ng-model="profileForm.email">
+				</label>
+				<label class="item item-input item-stacked-label">
+					<span class="input-label">Password</span>
+					<input type="password" placeholder="Choose a password." ng-model="profileForm.password">
+				</label>
+			</div>
+			<div class="padding">
+				<button type="submit" class="button button-block">Create Profile</button>
+			</div>
+		</form>
+	</ion-content>
+</ion-view>

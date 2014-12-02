@@ -1,0 +1,23 @@
+{
+  "name": "base-auth",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "cheerio": "^0.18.0",
+    "cookie-parser": "^1.3.3",
+    "crypto": "0.0.3",
+    "express": "^4.10.3",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-nodemon": "^1.0.4",
+    "jwt-simple": "^0.2.0",
+    "mongoose": "^3.8.19",
+    "mongoose-unique-validator": "^0.4.1",
+    "node-uuid": "^1.4.1",
+    "passport": "^0.2.1",
+    "passport-http-bearer": "^1.0.1",
+    "request": "^2.48.0",
+    "spooky": "^0.2.5",
+    "validator": "^3.22.1"
+  }
+}

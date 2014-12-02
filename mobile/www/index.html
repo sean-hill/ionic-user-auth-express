@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <!-- Compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+    <!-- Ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- App's js -->
+    <script src="js/app.js"></script>
+
+    <!-- App's controllers -->
+    <script src="js/controllers/controllers-module.js"></script>
+    <script src="js/controllers/app-ctrl.js"></script>
+    <script src="js/controllers/login-ctrl.js"></script>
+    <script src="js/controllers/get-started/get-started-ctrl.js"></script>
+    <script src="js/controllers/get-started/create-profile-ctrl.js"></script>
+    <script src="js/controllers/get-started/welcome-ctrl.js"></script>
+    <script src="js/controllers/get-started/user-created-ctrl.js"></script>
+
+    <!-- App's services -->
+    <script src="js/services/services-module.js"></script>
+    <script src="js/services/user-service.js"></script>
+    <script src="js/services/api-service.js"></script>
+    <script src="js/services/storage-service.js"></script>
+    <script src="js/services/auth-retry-service.js"></script>
+    <script src="js/services/auth-interceptor-service.js"></script>
+
+    <!-- App's directives -->
+    <script src="js/directives.js"></script>
+
+  </head>
+  <body ng-app="base-auth" ng-controller="AppCtrl" animation="slide-left-right-ios7">
+    <ion-nav-view></ion-nav-view>
+    <login></login>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<ion-modal-view>
+	<ion-header-bar>
+		<h1 class="title">Login</h1>
+	</ion-header-bar>
+	<ion-content>
+		<form ng-submit="login()">
+			<div class="list">
+				<label class="item item-input item-stacked-label">
+					<span class="input-label">Email</span>
+					<input type="email" placeholder="example@unbill.us" ng-model="loginForm.email">
+				</label>
+				<label class="item item-input item-stacked-label">
+					<span class="input-label">Password</span>
+					<input type="password" placeholder="Choose a password." ng-model="loginForm.password">
+				</label>
+			</div>
+			<div class="padding">
+				<button type="submit" class="button button-block">Login</button>
+			</div>
+		</form>
+	</ion-content>
+</ion-modal-view>

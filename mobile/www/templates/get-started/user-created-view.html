@@ -1,0 +1,8 @@
+<ion-view title="Created User">
+	<ion-content padding="true">
+		<h3> User has been created </h3>
+		<button class="button" ng-click="clickToGetUser()" ng-show="!user.authToken">Click to get User using Auth</button>
+		<pre ng-show="user.authToken"> {{ user | json }} </pre>
+		<button class="button" ng-click="clearAuthAndGetUser()" ng-show="!user.authToken">Click to clear Auth and attempt to get User</button>
+	</ion-content>
+</ion-view>
