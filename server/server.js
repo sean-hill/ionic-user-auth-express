@@ -18,7 +18,10 @@ var express = require('express');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var Conf = require('./conf');
+var cors =  require('cors');
 var app = express();
+app.use(cors());//all routes allow cors access
+app.options('*', cors());//all domians are allowed cors access.  See cors documentation for limiting this
 var port = process.env.PORT || 5000;
 
 
